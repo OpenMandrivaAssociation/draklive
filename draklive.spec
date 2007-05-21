@@ -14,7 +14,7 @@ BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch:      noarch
 Requires:       syslinux grub
 Requires:       cdrkit cdrkit-genisoimage
-Requires:       curl rsync mtools patch squashfs-tools setarch urpmi
+Requires:       curl rsync dosfstools mtools patch squashfs-tools setarch urpmi
 
 %description
 This tool allows to generate Mandriva live systems.
