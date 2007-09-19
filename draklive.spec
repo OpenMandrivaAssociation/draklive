@@ -1,13 +1,13 @@
 %define name draklive
 %define version 0.5
-%define release %mkrel 1
+%define release %mkrel 2
 
 Summary:	Live systems generation and copying tool
 Name:		%{name}
 Version:	%{version}
 Release:	%{release}
 Source0:	%{name}-%{version}.tar.bz2
-License:	GPL
+License:	GPLv2+
 Group:		System/Configuration/Other
 Url:		http://wiki.mandriva.com/Development/Packaging/Tools/draklive
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
@@ -17,7 +17,7 @@ Requires:       cdrkit cdrkit-genisoimage
 Requires:       curl rsync dosfstools mtools patch squashfs-tools setarch urpmi
 
 %description
-This tool allows to generate Mandriva live systems.
+This tool lets you generate Mandriva live systems.
 
 %prep
 %setup -q
