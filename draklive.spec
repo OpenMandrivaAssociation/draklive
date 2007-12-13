@@ -25,15 +25,13 @@ This tool lets you generate Mandriva live systems.
 %build
 
 %install
-rm -rf $RPM_BUILD_ROOT
-install -D -m 0755 %name %buildroot/%_sbindir/%{name}
+rm -rf %{buildroot}
+install -D -m 0755 %{name} %{buildroot}/%{_sbindir}/%{name}
 
 %clean
-rm -rf $RPM_BUILD_ROOT
+rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root)
 %doc NEWS
-%_sbindir/%name
-
-
+%{_sbindir}/%{name}
