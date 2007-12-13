@@ -13,7 +13,7 @@ Url:		http://wiki.mandriva.com/Development/Packaging/Tools/draklive
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch:      noarch
 Requires:       syslinux grub
-Requires:       cdrkit cdrkit-genisoimage
+Requires:       cdrkit cdrkit-genisoimage mkcd
 Requires:       curl rsync dosfstools mtools patch squashfs-tools setarch urpmi
 
 %description
