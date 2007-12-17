@@ -10,7 +10,6 @@ Source0:	%{name}-%{version}.tar.bz2
 License:	GPLv2+
 Group:		System/Configuration/Other
 Url:		http://wiki.mandriva.com/Development/Packaging/Tools/draklive
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch:      noarch
 Requires:       syslinux grub
 Requires:       cdrkit cdrkit-genisoimage mkcd
