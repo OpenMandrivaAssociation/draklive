@@ -9,6 +9,7 @@ Release:	%{release}
 Source0:	%{name}-%{version}.tar.bz2
 License:	GPLv2+
 Group:		System/Configuration/Other
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Url:		http://wiki.mandriva.com/Development/Packaging/Tools/draklive
 BuildArch:      noarch
 Requires:       syslinux grub
