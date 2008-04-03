@@ -1,5 +1,5 @@
 %define name draklive
-%define version 0.6
+%define version 0.7
 %define release %mkrel 1
 
 Summary:	Live systems generation and copying tool
