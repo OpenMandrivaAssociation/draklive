@@ -14,7 +14,7 @@ Url:		http://wiki.mandriva.com/Development/Packaging/Tools/draklive
 BuildArch:      noarch
 Requires:       syslinux grub
 Requires:       cdrkit cdrkit-genisoimage mkcd
-Requires:       curl rsync dosfstools mtools patch squashfs-tools setarch urpmi
+Requires:       curl rsync dosfstools mtools patch squashfs3-tools setarch urpmi
 Suggests:	draklive-config-One
 
 %description
