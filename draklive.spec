@@ -1,6 +1,6 @@
 %define name draklive
-%define version 0.8.1
-%define release %mkrel 1
+%define version 0.8
+%define release %mkrel 2
 
 Summary:	Live systems generation and copying tool
 Name:		%{name}
