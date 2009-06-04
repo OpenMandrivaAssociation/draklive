@@ -1,5 +1,5 @@
 %define name draklive
-%define version 0.8
+%define version 0.8.1
 %define release %mkrel 1
 
 Summary:	Live systems generation and copying tool
@@ -28,6 +28,8 @@ This tool lets you generate Mandriva live systems.
 %install
 rm -rf %{buildroot}
 install -D -m 0755 %{name} %{buildroot}/%{_sbindir}/%{name}
+mkdir -p %{buildroot}/%{perl_vendorlib}/MDV/Draklive/
+install -D -m 0755 lib/MDV/Draklive/*.pm %{buildroot}/%{perl_vendorlib}/MDV/Draklive/
 
 %clean
 rm -rf %{buildroot}
@@ -36,3 +38,5 @@ rm -rf %{buildroot}
 %defattr(-,root,root)
 %doc NEWS
 %{_sbindir}/%{name}
+%{perl_vendorlib}/MDV/Draklive/*
+
