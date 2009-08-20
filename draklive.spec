@@ -1,6 +1,6 @@
 %define name draklive
 %define version 0.8
-%define release %mkrel 2
+%define release %mkrel 3
 
 Summary:	Live systems generation and copying tool
 Name:		%{name}
@@ -16,6 +16,7 @@ Requires:       syslinux grub
 Requires:       cdrkit cdrkit-genisoimage mkcd
 Requires:       curl rsync dosfstools mtools patch squashfs3-tools setarch urpmi
 Suggests:	draklive-config-One
+Suggests:	drakx-installer-images drakx-installer-rescue
 
 %description
 This tool lets you generate Mandriva live systems.
