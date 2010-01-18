@@ -1,12 +1,12 @@
 %define name draklive
-%define version 0.8
-%define release %mkrel 3
+%define version 0.9
+%define release %mkrel 1
 
 Summary:	Live systems generation and copying tool
 Name:		%{name}
 Version:	%{version}
 Release:	%{release}
-Source0:	%{name}-%{version}.tar.lzma
+Source0:	%{name}-%{version}.tar.xz
 License:	GPLv2+
 Group:		System/Configuration/Other
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
