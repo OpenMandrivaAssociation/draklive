@@ -17,6 +17,7 @@ Requires:       cdrkit cdrkit-genisoimage mkcd
 Requires:       curl rsync dosfstools mtools patch squashfs3-tools setarch urpmi
 Suggests:	draklive-config-One
 Suggests:	drakx-installer-images drakx-installer-rescue
+Suggests:	x11-server-xnest mkisofs
 
 %description
 This tool lets you generate Mandriva live systems.
